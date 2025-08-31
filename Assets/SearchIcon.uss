@@ -1,0 +1,10 @@
+#SearchIcon {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-6090568113533005507&guid=514b4cd8ab0df6d15a8ebeb27f1eb05a&type=3#check");
+    width: 25px;
+    height: 25px;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-align: upper-left;
+    align-self: center;
+}
