@@ -2,7 +2,7 @@
 
 # UI
 
-After reading through (Comparison of UI systems in Unity)[https://docs.unity3d.com/6000.2/Documentation/Manual/UI-system-compare.html]. I have decided that UI Toolkit is the way to go. It has a workflow similar to WebDev and global styling.
+After reading through [Comparison of UI systems in Unity](https://docs.unity3d.com/6000.2/Documentation/Manual/UI-system-compare.html). I have decided that UI Toolkit is the way to go. It has a workflow similar to WebDev and global styling.
 
 # Features
 
