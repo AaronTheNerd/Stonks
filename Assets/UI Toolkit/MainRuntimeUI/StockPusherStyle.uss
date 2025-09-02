@@ -1,0 +1,4 @@
+#StockPusherArea > Button {
+    height: 30%;
+    width: 80%;
+}

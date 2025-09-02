@@ -1,5 +1,15 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainRuntimeUI/StockPusherStyle.uss?fileID=7433441132597879392&amp;guid=c705e02b64f557fa1a13f0a4396ffb0b&amp;type=3#StockPusherStyle" />
     <ui:VisualElement name="FullVisualElement" style="flex-grow: 1; align-items: stretch; justify-content: flex-end; align-self: stretch;">
+        <ui:VisualElement name="ChartArea" style="flex-grow: 1; height: 191px;" />
+        <ui:VisualElement name="StockPusherArea" style="flex-grow: 1; justify-content: space-around; align-self: auto; width: 100%; align-items: center;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="UpButton" focusable="false" style="align-items: center; align-self: center; background-color: rgb(59, 206, 46); background-image: none; -unity-background-scale-mode: scale-to-fit; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                <ui:VisualElement name="UpArrowIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&amp;guid=514b4cd8ab0df6d15a8ebeb27f1eb05a&amp;type=3#arrow-up@2x&quot;); width: 20%; align-self: center; -unity-background-scale-mode: scale-to-fit; height: auto; background-color: rgba(255, 255, 255, 0);" />
+            </ui:Button>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="UpButton" focusable="false" style="align-items: center; align-self: center; background-color: rgb(206, 52, 46); background-image: none; -unity-background-scale-mode: scale-to-fit; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                <ui:VisualElement name="DownArrowIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-1304905567622442630&amp;guid=514b4cd8ab0df6d15a8ebeb27f1eb05a&amp;type=3#arrow-down@2x&quot;); width: 20%; align-self: center; -unity-background-scale-mode: scale-to-fit; height: auto; background-color: rgba(255, 255, 255, 0);" />
+            </ui:Button>
+        </ui:VisualElement>
         <ui:Button display-tooltip-when-elided="true" name="SearchButton" enable-rich-text="false" style="color: rgb(31, 31, 31); background-color: rgb(16, 16, 16); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: 10%;">
             <ui:VisualElement name="SearchIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/SearchIcon.png?fileID=2800000&amp;guid=65e9b4d5f3305851e87840c860d28d54&amp;type=3#SearchIcon&quot;); width: 10%; align-self: center; -unity-background-scale-mode: scale-to-fit;" />
         </ui:Button>
